@@ -1,0 +1,48 @@
+*{
+    font-family: 'Cormorant', serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+    color: linen;
+}
+
+.title{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.author{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    top: -50px;
+}
+
+div.recipes-box{
+    width: 64%;
+    margin: auto;
+}
+
+div.gallery {
+    margin: auto;
+    float: left;
+    width: 400px;
+}
+
+div.gallery img {
+    width: 82%;
+    height: 500px;
+}
+
+div.desc {
+    font-size: 2rem;
+    padding: 40px;
+    text-align: center;
+    top: 80px;
+}
+
+.gallery > a > img:hover{
+    border-radius: 15px;
+    transform: scale(1.1,1.1);
+}

@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-    h1 {text-align: center;}
-    .container {width:100%; text-align: center;}
-</style>
     <meta charset="UTF-8">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <div class="container">
-        <a href="recipes/laghman.html"><img src="./recipes/Laghman.jpg" alt="Lagmhman Dish Image" style="width:200px;height:200;"></a>
-        <a href="recipes/manti.html"><img src="./recipes/Manti.webp" alt="Manti Dish Image" style="width:200px;height:200;"></a>
-        <a href="recipes/blini.html"><img src="./recipes/Blini.webp" alt="Blini Dish Image" style="width:200px;height:200;"></a>
+    <h1 class="title">Odin Recipes</h1>
+    <p class="author">Recipe project by: Malyel</p>
+    <div class="recipes-box">
+        <div class="gallery laghman">
+            <a href="recipes/laghman.html"><img src="./images/Laghman.jpg" alt="Lagmhman Dish Image"></a>
+        <div class="desc">Laghman</div>
+     </div>
+        <div class="gallery manti">
+            <a href="recipes/manti.html"><img src="./images/Manti.webp" alt="Manti Dish Image"></a>
+        <div class="desc">Manti</div>
+     </div>
+        <div class="gallery blini">
+            <a href="recipes/blini.html"><img src="./images/Blini.webp" alt="Blini Dish Image"></a>
+            <div class="desc">Blini</div>
+     </div>
     </div>
-    
 </body>
 </html>
